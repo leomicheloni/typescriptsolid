@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Animal_1 = require("./Liskov/Animal");
 var Snake_1 = require("./Liskov/Snake");
 var Horse_1 = require("./Liskov/Horse");

@@ -1,5 +1,5 @@
 import {Flyable} from './Flyable'
-import {FlyStatus} from './FlyStatys'
+import {FlyStatus} from './FlyStatus'
 
 export class Helicopter implements Flyable{
     private altitude: number = 0;

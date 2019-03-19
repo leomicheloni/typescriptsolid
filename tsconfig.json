@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "bin",
+        "removeComments": false,
+        "watch": true
+    },
+    "exclude": [
+
+    ],
+    "include": ["**/*.ts"]
+}
