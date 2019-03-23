@@ -3,7 +3,7 @@ import { FakeRepository } from "../openclose/FakeRepository";
 import { User } from "../openclose/User";
 
 export class RespositoryFactory{
-    Build() : Repository<User> {
+    static Build() : Repository<User> {
         return new FakeRepository();
     }
 }
