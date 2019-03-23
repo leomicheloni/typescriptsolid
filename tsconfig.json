@@ -3,10 +3,12 @@
         "target": "es5",
         "outDir": "bin",
         "removeComments": false,
-        "watch": true
+        "watch": false,
+        "module": "commonjs"
     },
     "exclude": [
-
+        "node_modules"
     ],
-    "include": ["**/*.ts"]
+    "include": ["**/*.ts"],
+    
 }
