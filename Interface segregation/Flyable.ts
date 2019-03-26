@@ -1,6 +1,6 @@
-export interface Flyable {   
+export interface Flyable {
     start(): void;
     takeOff(): void;
-    land():void;
+    land(): void;
     getAltitude(): number;
 }

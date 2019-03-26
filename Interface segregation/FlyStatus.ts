@@ -1,4 +1,4 @@
-export enum FlyStatus{
+export enum FlyStatus {
     Landed,
     TakingOff,
     Flying,

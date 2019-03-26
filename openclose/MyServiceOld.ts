@@ -1,13 +1,10 @@
 import { Repository } from "./Repository";
 import { User } from "./User";
+import { FakeRepository } from "./FakeRepository";
 
-export class MyService {
+export class MyServiceOld {
 
-    private repository: Repository<User>;
-
-    constructor(repository: Repository<User>) {
-        this.repository = repository;
-    }
+    private repository: Repository<User> = new FakeRepository();
 
     public DoSuff(user: User) {
         // do some business logic

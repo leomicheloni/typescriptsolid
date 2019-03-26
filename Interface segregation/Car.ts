@@ -1,4 +1,4 @@
-import {Drivable} from './Drivable'
+import { Drivable } from './Drivable'
 
 export class Car implements Drivable {
     private _isRunning: boolean;

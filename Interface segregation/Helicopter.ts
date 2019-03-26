@@ -1,23 +1,23 @@
-import {Flyable} from './Flyable'
-import {FlyStatus} from './FlyStatus'
+import { Flyable } from './Flyable'
+import { FlyStatus } from './FlyStatus'
 
-export class Helicopter implements Flyable{
+export class Helicopter implements Flyable {
     private altitude: number = 0;
     private status: FlyStatus = FlyStatus.Landed;
 
     start(): void {
         this.status = FlyStatus.TakingOff;
-    }    
-    
+    }
+
     takeOff(): void {
         this.status = FlyStatus.Flying;
     }
-    
+
     land(): void {
         this.status = FlyStatus.Landed;
     }
-    
-    getStatus(){
+
+    getStatus() {
         return this.status;
     }
 

@@ -7,9 +7,8 @@ import { RespositoryFactory } from "./Dependency inversion/RepositoryFactory";
 
 export class DependencyInversion implements SOLIDPrinciple{
     Run() {
-        var repo : Repository<User> = RespositoryFactory.Build();
-        
+        var repo : Repository<User> = RespositoryFactory.Build();        
         var service = new MyService(repo);
+        service.DoSuff(new User());
     }
-
 }
