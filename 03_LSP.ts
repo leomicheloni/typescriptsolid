@@ -13,7 +13,8 @@ export class Liskov implements SOLIDPrinciple {
         const donald: Animal = new ElectricDuck("I'm an electric Duck called Donald");
 
         const animals: Array<Animal> = [sam, tom, mike, donald];
-
+        
+        // polimorphism
         animals.forEach(animal => {
             if (animal instanceof ElectricDuck) {
                 animal.powerOn = true;

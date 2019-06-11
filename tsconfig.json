@@ -1,14 +1,13 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "outDir": "bin",
+        "outDir": "output",
         "removeComments": false,
-        "watch": false,
+        "watch": true,
         "module": "commonjs"
     },
     "exclude": [
         "node_modules"
     ],
-    "include": ["**/*.ts"],
-    
+    "include": ["**/*.ts"]    
 }

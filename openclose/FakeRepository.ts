@@ -6,6 +6,7 @@ export class FakeRepository implements Repository<User>{
 
     Save<User>(entity: User) {
         this.s.push(new User );
+        console.log("Called fake repo");
     }
 
     GetAll<User>(): User[] {

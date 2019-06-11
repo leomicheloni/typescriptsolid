@@ -5,7 +5,7 @@ export class ElectricDuck extends Animal {
     move() {
         if (this.powerOn != true)
             return;
-        console.log("Doing duck stuff...");
+        console.log("Doing duck stuff until my battery dies...");
         super.move(15);
     }
 }
